@@ -1,6 +1,6 @@
 .card {
-  height: 20rem;
-  width: 15rem;
+  height: 25rem;
+  width: 20rem;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   position: relative;
@@ -17,7 +17,7 @@
   filter: grayscale(70%);
   transition: 0.1s ease-in-out;
 }
-.imgContainer:hover {
+.card:hover .imgContainer {
   filter: grayscale(0%);
 }
 .removeBtn {

@@ -1,5 +1,7 @@
 .search {
   height: 2rem;
+  border-radius: 5px;
+  border-style: solid;
 }
 .header {
   display: flex;

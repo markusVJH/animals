@@ -37,6 +37,7 @@ function App() {
 
   return (
     <div className="all">
+        <h1>Animals</h1>
       <div className="header">
         <Search onSearch={setSearchTerm} />
       </div>
